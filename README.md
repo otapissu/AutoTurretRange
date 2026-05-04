@@ -25,12 +25,13 @@ A Unity project implementing an auto-targeting turret shooting range.
 ```
 Turret
 ├── TurretFloor
-├── TurretHead
-├── TurretBarrel
-│   └── MuzzlePoint
 └── YawPivot
-    └── PitchPivot
+    └── TurretHead
+        └── PitchPivot
+            └── TurretBarrel
+                └── MuzzlePoint
 
 TargetRailPivot
 └── TargetDrone
+    └── Sphere
 ```
